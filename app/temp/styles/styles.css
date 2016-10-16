@@ -991,11 +991,11 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-8eb89099.svg');
+      background-image: url('/assets/images/sprites/sprite-a8da295c.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-8eb89099.png');
+      background-image: url('/assets/images/sprites/sprite-a8da295c.png');
     }
 
 .icon--clear-view-escapes {
@@ -1013,49 +1013,55 @@ Instead edit gulp/templates/sprite */
 .icon--facebook {
     width: 23.23px;
     height: 44.01px;
-    background-position: 26.424310365536293% 45.92133741323979%;
+    background-position: 17.620210593746247% 99.75660087835335%;
   }
 
 .icon--fire {
     width: 58px;
     height: 66px;
-    background-position: 0 99.58035714285714%;
+    background-position: 0 73.37125748502994%;
   }
 
 .icon--globe {
     width: 66px;
     height: 66px;
-    background-position: 28.019323671497585% 99.58035714285714%;
+    background-position: 28.019323671497585% 73.37125748502994%;
   }
 
 .icon--instagram {
     width: 44.01px;
     height: 44.01px;
-    background-position: 63.059522249879905% 49.25740726919919%;
+    background-position: 0 99.75660087835335%;
   }
 
 .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 0 48.0703125%;
+    background-position: 99.71014492753623% 72.1311475409836%;
   }
 
 .icon--rain {
     width: 66px;
     height: 66px;
-    background-position: 99.71014492753623% 58.92857142857143%;
+    background-position: 99.71014492753623% 39.52095808383233%;
+  }
+
+.icon--rayGreycloud {
+    width: 144px;
+    height: 61px;
+    background-position: 0 35.77325581395349%;
   }
 
 .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 59.90338164251208% 99.58035714285714%;
+    background-position: 59.90338164251208% 73.37125748502994%;
   }
 
 .icon--twitter {
     width: 53.78px;
     height: 44.06px;
-    background-position: 94.15199343125627% 98.55159026429745%;
+    background-position: 65.8699023811696% 34.93172435693871%;
   }
 
 .icon--wifi {
@@ -1067,7 +1073,7 @@ Instead edit gulp/templates/sprite */
 .icon--youtube {
     width: 36.75px;
     height: 44px;
-    background-position: 37.76931216931217% 45.917910447761194%;
+    background-position: 28.46137566137566% 99.75132275132275%;
   }
 
 .site-footer {
