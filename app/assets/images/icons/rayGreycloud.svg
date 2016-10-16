@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="142" height="59">
-    <title>rayGreycloud</title>
-    
-        <g class="currentLayer">
-          <title>Layer 1</title>
 
-          <foreignObject fill="#000000" stroke="#222222" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" font-size="30" font-family="Georgia, serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="svg_4" x="1" y="1" width="1" height="1" style="color: rgb(0, 0, 0);" class="">
-
-          <p xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml"></p><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p><p></p></p></foreignObject>
-          <foreignObject fill="#000000" stroke="#222222" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" font-size="22" font-family="'Comic Sans MS', cursive, sans-serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="svg_6" x="5.680558681488037" y="5.111119866371155" width="3" height="1" style="color: rgb(255, 255, 255); text-align: center;" class="" font-weight="bold" transform="matrix(1,0,0,1,0,0) translate(3.124999761581421,-6.249999523162842) translate(1.0416666269302368,1.0416666269302368) translate(-9.375,2.0833332538604736) ">
-
-          <p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;" xmlns="http://www.w3.org/1999/xhtml"><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;">rayGreycloud</p><p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;"></p></p></foreignObject>
-        <foreignObject fill="#000000" stroke="#222222" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" font-size="28" font-family="'Comic Sans MS', cursive, sans-serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="svg_5" x="4.666668891906738" y="26.75000035762787" width="17" height="3" style="color: rgb(255, 255, 255); text-align: center;" class="" font-weight="bold"><p xmlns="http://www.w3.org/1999/xhtml" style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;">Developer</p></foreignObject></g>
-      </svg>
+<svg width="142.4" height="59.53" viewBox="0 0 142.4 59.53" xmlns="http://www.w3.org/2000/svg">
+  <defs><style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic');
+  </style></defs>
+  <text x="" y="20" font-size="18" fill="#fff" font-family="Roboto">rayGREYCLOUD</text>
+  <text x="" y="42" font-size="22" fill="#fff" font-family="Roboto" font-weight="700">DEVELOPER</text>
+</svg>
