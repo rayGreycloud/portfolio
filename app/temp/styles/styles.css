@@ -440,7 +440,7 @@ a {
 }
 
 .large-hero {
-  border-bottom: 10px solid #2f5572;
+  border-bottom: 10px solid #2f4074;
   position: relative;
 
 }
@@ -469,7 +469,7 @@ a {
 
 .large-hero__title {
   font-weight: 300;
-  color: #2f5572;
+  color: #2f4074;
   margin: 0;
   font-size: 2.4rem;
 }
@@ -483,7 +483,7 @@ a {
 
 .large-hero__subtitle {
   font-weight: 300;
-  color: #2f5572;
+  color: #2f4074;
   font-size: 1.5rem;
   margin: 0;
 }
@@ -513,7 +513,7 @@ a {
 }
 
 .btn {
-  background-color: #2f5572;
+  background-color: #2f4074;
   color: #FFF;
   text-decoration: none;
   padding: .75rem 1.2rem;
@@ -631,7 +631,7 @@ a {
 }
 
 .page-section--blue {
-  background-color: #2f5572;
+  background-color: #2f4074;
   color: #FFF;
 }
 
@@ -650,7 +650,7 @@ a {
 .headline {
   font-size: 1.9rem;
   font-weight: 300;
-  color: #2f5572;
+  color: #2f4074;
 }
 
 @media (min-width: 530px) {
@@ -873,7 +873,7 @@ a {
 }
 
 .section-title--blue {
-  color: #2f5572;
+  color: #2f4074;
 }
 
 .section-title--less-margin {
@@ -972,7 +972,7 @@ a {
 }
 
 .testimonial__title {
-  color: #2f5572;
+  color: #2f4074;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
@@ -1071,7 +1071,7 @@ Instead edit gulp/templates/sprite */
   }
 
 .site-footer {
-  background-color: #2f5572;
+  background-color: #2f4074;
   color: #FFF;
   padding: .5rem 0;
   text-align: center;
@@ -1102,14 +1102,14 @@ Instead edit gulp/templates/sprite */
 }
 
 .site-header--is-expanded {
-  background-color: rgba(47,85,114, .55);
+  background-color: rgba(47,64,116, .55);
 }
 
 @media (min-width: 800px) {
 
   .site-header {
     position: fixed;
-    background-color: rgba(47,85,114, .3);
+    background-color: rgba(47,64,116, .3);
   }
 
   .site-header--dark {
@@ -1136,7 +1136,7 @@ Instead edit gulp/templates/sprite */
   transition: transform .3s ease-out, -webkit-transform .3s ease-out;
   -webkit-transform-origin: 50% 0;
           transform-origin: 50% 0;
-  background-color: #2f5572;
+  background-color: #2f4074;
   padding: 25px 36px;
 }
 
@@ -1327,7 +1327,7 @@ Instead edit gulp/templates/sprite */
   display: block;
   padding: 5px 8px;
   font-size: .8rem;
-  background-color: rgba(47,85,114, .5);
+  background-color: rgba(47,64,116, .5);
 }
 
 @media (min-width: 800px) {
@@ -1404,7 +1404,7 @@ Instead edit gulp/templates/sprite */
           transform: scaleX(1.2);
   -webkit-transform-origin: 100% 0;
           transform-origin: 100% 0;
-  color: #2f5572;
+  color: #2f4074;
   cursor: pointer;
 }
 
@@ -1514,7 +1514,7 @@ Instead edit gulp/templates/sprite */
 }
 
 .project__title {
-  color: #2f5572;
+  color: #2f4074;
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
