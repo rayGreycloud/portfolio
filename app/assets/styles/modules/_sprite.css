@@ -2,38 +2,38 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-cfd07dfb.svg');
+      background-image: url('/assets/images/sprites/sprite-0f155da5.svg');
     }
 
     .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-cfd07dfb.png');
+      background-image: url('/assets/images/sprites/sprite-0f155da5.png');
     }
 
-  .icon--airplane-blue {
+  .icon--airplane {
     width: 62px;
     height: 62px;
     background-position: 24.21875% 68.01538461538462%;
   }
 
-  .icon--code-blue {
+  .icon--code {
     width: 62px;
     height: 62px;
     background-position: 48.4375% 68.01538461538462%;
   }
 
-  .icon--cogs-orange {
+  .icon--cogs {
     width: 62px;
     height: 62px;
     background-position: 99.8046875% 63.58974358974359%;
   }
 
-  .icon--github-blue {
+  .icon--github {
     width: 62px;
     height: 62px;
     background-position: 74.0234375% 33.84615384615385%;
   }
 
-  .icon--magic-orange {
+  .icon--magic {
     width: 62px;
     height: 62px;
     background-position: 0 68.01538461538462%;
@@ -51,19 +51,19 @@ Instead edit gulp/templates/sprite */
     background-position: 0 0;
   }
 
-  .icon--rocket-orange {
+  .icon--rocket {
     width: 62px;
     height: 62px;
     background-position: 72.65625% 68.01538461538462%;
   }
 
-  .icon--send-blue {
+  .icon--send {
     width: 62px;
     height: 62px;
     background-position: 99.8046875% 0;
   }
 
-  .icon--server-orange {
+  .icon--server {
     width: 62px;
     height: 62px;
     background-position: 99.8046875% 31.794871794871796%;
@@ -75,7 +75,7 @@ Instead edit gulp/templates/sprite */
     background-position: 75.1984126984127% 0;
   }
 
-  .icon--twitter-white {
+  .icon--twitter {
     width: 62px;
     height: 62px;
     background-position: 0 99.81025641025641%;
