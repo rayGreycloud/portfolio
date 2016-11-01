@@ -991,65 +991,83 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-1fa1c6b4.svg');
+      background-image: url('/assets/images/sprites/sprite-cfd07dfb.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-1fa1c6b4.png');
+      background-image: url('/assets/images/sprites/sprite-cfd07dfb.png');
     }
 
-.icon--code {
-    width: 50px;
-    height: 66px;
-    background-position: 93.15352697095436% 0;
+.icon--airplane-blue {
+    width: 62px;
+    height: 62px;
+    background-position: 24.21875% 68.01538461538462%;
   }
 
-.icon--gear {
-    width: 898px;
-    height: 1026px;
-    background-position: 0 0;
+.icon--code-blue {
+    width: 62px;
+    height: 62px;
+    background-position: 48.4375% 68.01538461538462%;
+  }
+
+.icon--cogs-orange {
+    width: 62px;
+    height: 62px;
+    background-position: 99.8046875% 63.58974358974359%;
+  }
+
+.icon--github-blue {
+    width: 62px;
+    height: 62px;
+    background-position: 74.0234375% 33.84615384615385%;
+  }
+
+.icon--magic-orange {
+    width: 62px;
+    height: 62px;
+    background-position: 0 68.01538461538462%;
   }
 
 .icon--mail {
     width: 66px;
     height: 50px;
-    background-position: 100% 0;
+    background-position: 0 39.91787439613527%;
   }
 
-.icon--rocket {
-    width: 66px;
-    height: 66px;
-    background-position: 100% 5.208333333333333%;
+.icon--rayGreycloud {
+    width: 189.5px;
+    height: 82.63px;
+    background-position: 0 0;
   }
 
-.icon--server {
-    width: 50px;
-    height: 66px;
-    background-position: 98.34024896265561% 12.083333333333334%;
+.icon--rocket-orange {
+    width: 62px;
+    height: 62px;
+    background-position: 72.65625% 68.01538461538462%;
+  }
+
+.icon--send-blue {
+    width: 62px;
+    height: 62px;
+    background-position: 99.8046875% 0;
+  }
+
+.icon--server-orange {
+    width: 62px;
+    height: 62px;
+    background-position: 99.8046875% 31.794871794871796%;
   }
 
 .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 100% 18.958333333333332%;
+    background-position: 75.1984126984127% 0;
   }
 
-.icon--tools {
-    width: 66px;
-    height: 66px;
-    background-position: 100% 25.833333333333332%;
-  }
-
-.icon--twitter {
-    width: 53.78px;
-    height: 44.06px;
-    background-position: 98.72737497656787% 31.977513901053015%;
-  }
-
-.icon--youtube {
-    width: 36.75px;
-    height: 44px;
-    background-position: 97.0069071373753% 36.462321792260695%;
+.icon--twitter-white {
+    width: 62px;
+    height: 62px;
+    background-position: 0 99.81025641025641%;
   }
 
 .site-footer {

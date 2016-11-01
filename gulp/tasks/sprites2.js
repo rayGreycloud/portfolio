@@ -17,7 +17,7 @@ gulp.task('beginClean', function() {
 
 gulp.task('createSprite', ['beginClean'], function() {
   return gulp.src('./app/assets/images/icons/**/*.png')
-    .pipe(sprity(options))
+    .pipe(sprity.src(options))
     .pipe(gulp.dest('./app/temp/sprite/'));
 });
 
