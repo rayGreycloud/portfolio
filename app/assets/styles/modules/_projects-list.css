@@ -1,0 +1,9 @@
+.projects-list {
+  display: flex;
+  flex-flow: column nowrap;
+
+  @mixin atLarge {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
