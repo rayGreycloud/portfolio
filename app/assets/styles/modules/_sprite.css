@@ -2,47 +2,47 @@
 Instead edit gulp/templates/sprite */
 
     .icon {
-      background-image: url('/assets/images/sprites/sprite-0f155da5.svg');
+      background-image: url('/assets/images/sprites/sprite-d80e7e67.svg');
     }
 
     .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-0f155da5.png');
+      background-image: url('/assets/images/sprites/sprite-d80e7e67.png');
     }
 
   .icon--airplane {
     width: 62px;
     height: 62px;
-    background-position: 24.21875% 68.01538461538462%;
+    background-position: 19.871794871794872% 99.81951219512194%;
   }
 
   .icon--code {
-    width: 62px;
-    height: 62px;
-    background-position: 48.4375% 68.01538461538462%;
+    width: 122px;
+    height: 122px;
+    background-position: 75.1984126984127% 0;
   }
 
   .icon--cogs {
     width: 62px;
     height: 62px;
-    background-position: 99.8046875% 63.58974358974359%;
+    background-position: 0 99.81951219512194%;
+  }
+
+  .icon--envelope {
+    width: 122px;
+    height: 122px;
+    background-position: 0 56.98620689655172%;
   }
 
   .icon--github {
     width: 62px;
     height: 62px;
-    background-position: 74.0234375% 33.84615384615385%;
+    background-position: 79.48717948717949% 99.81951219512194%;
   }
 
   .icon--magic {
     width: 62px;
     height: 62px;
-    background-position: 0 68.01538461538462%;
-  }
-
-  .icon--mail {
-    width: 66px;
-    height: 50px;
-    background-position: 0 39.91787439613527%;
+    background-position: 39.1025641025641% 40.30731707317073%;
   }
 
   .icon--rayGreycloud {
@@ -54,29 +54,23 @@ Instead edit gulp/templates/sprite */
   .icon--rocket {
     width: 62px;
     height: 62px;
-    background-position: 72.65625% 68.01538461538462%;
-  }
-
-  .icon--send {
-    width: 62px;
-    height: 62px;
-    background-position: 99.8046875% 0;
+    background-position: 39.743589743589745% 99.81951219512194%;
   }
 
   .icon--server {
     width: 62px;
     height: 62px;
-    background-position: 99.8046875% 31.794871794871796%;
+    background-position: 59.61538461538461% 99.81951219512194%;
   }
 
   .icon--star {
     width: 66px;
     height: 66px;
-    background-position: 75.1984126984127% 0;
+    background-position: 61.52597402597402% 60.69651741293532%;
   }
 
   .icon--twitter {
     width: 62px;
     height: 62px;
-    background-position: 0 99.81025641025641%;
+    background-position: 99.83974358974359% 0;
   }
