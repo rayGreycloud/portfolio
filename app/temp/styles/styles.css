@@ -445,7 +445,12 @@ a {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
-
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .btn--orange {
@@ -712,7 +717,7 @@ a {
 @media (min-width: 1010px) {
 
   .page-section--projects.lazyloaded {
-    background: url('/assets/images/water-wake-bg.jpg') top center no-repeat;
+    background: url('/assets/images/water-wake-bg-tall.jpg') top center no-repeat;
     background-size: cover;
   }
 }
@@ -796,21 +801,23 @@ a {
 }
 
 .project {
-  background-color: rgba(255, 255, 255, .8);
-  padding: 0 18px 1px 18px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 98px;
-  border-radius: 15px;
+  border: solid 4px #fefefe;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  -webkit-transition: box-shadow 200ms ease-out;
+  transition: box-shadow 200ms ease-out;
+  border-radius: 0;
+  margin-bottom: 1rem;
 }
 
-@media (min-width: 1010px) {
+.project:hover {
+  box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+}
 
-  .project {
-    margin-bottom: 0;
-    padding: 0 1.8125rem 1px 1.8125rem;
-    width: 800px;
-  }
+.project:focus {
+  box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
 }
 
 .project--last {
@@ -818,14 +825,8 @@ a {
 }
 
 .project__photo {
-  border-radius: 15px;
   overflow: hidden;
-  width: 215px;
-  height: 160px;
-  margin: 0 auto -80px auto;
-  position: relative;
-  top: -80px;
-  border: 6px solid rgba(255, 255, 255, .8);
+  width: 300px;
 }
 
 .project__title {
@@ -844,25 +845,32 @@ a {
   margin: .25rem 0 1rem 0;
 }
 
-.projects-list {
+.project__buttons {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem;
+}
+
+.project__caption {
+  margin: auto 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, .8);
+  text-align: center;
+}
+
+.project-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-flow: column nowrap;
-      flex-flow: column nowrap;  
-}
-
-@media (min-width: 1010px) {
-
-  .projects-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row wrap;
-        flex-flow: row wrap;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .reveal-item {

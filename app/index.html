@@ -135,52 +135,71 @@
     <div class="wrapper wrapper--no-padding-until-large">
       <h2 class="section-title section-title--blue"><span class="icon icon--star section-title__icon"></span> My <strong>Projects</strong></h2>
 
-      <div class="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container projects-list">
-        <div class="row__large-4">
-          <div class="project">
-            <div class="project__photo">
-              <img class="lazyload" sizes="215px" data-srcset="assets/images/project-timer.png 213w, assets/images/project-timer-hi-dpi.png 427w" alt="Timer App">
-            </div>
-            <h3 class="project__title">React Timer App</h3>
-            <h4 class="project__subtitle">Dual Mode Countdown Timer Web App</h4>
+      <div class="project-list row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container ">
+
+        <div class="project">
+          <div class="project__photo">
+            <img class="lazyload" sizes="215px" data-srcset="assets/images/project-timer.png 213w, assets/images/project-timer-hi-dpi.png 427w" alt="Timer App">
+          </div>
+          <div class="project__caption">
+            <h4 class="project__title">React Timer App</h4>
+            <h5 class="project__subtitle">Dual Mode Countdown Timer Web App</h5>
             <p>Online timer application with two modes. Timer shows the elapsed time, like a stopwatch. Countdown shows the amount of time remaining for the user's chosen time period. React Timer App was built using ReactJS, jQuery, and Sass on the front-end with NodeJS and Express on the back-end. Webpack, Babel, Mocha and Karma were used during development and the app was deployed on Heroku.</p>
-            <div>
+            <div class="project__buttons">
               <a href="http://desolate-bastion-52115.herokuapp.com/" class="btn btn--large btn--orange">See Live App</a>
               <a href="https://github.com/rayGreycloud/timer-react" class="btn btn--large">See the Code</a>
             </div>
+          </div> <!--caption-->
+        </div> <!--project1-->
+
+        <div class="project">
+          <div class="project__photo">
+            <img class="lazyload" sizes="215px" data-srcset="assets/images/project-markbin.png 215w, assets/images/project-markbin-hi-dpi.png 430w" alt="MarkBin">
           </div>
-        </div>
-        <div class="row__large-4">
-          <div class="project">
-            <div class="project__photo">
-              <img class="lazyload" sizes="215px" data-srcset="assets/images/project-markbin.png 215w, assets/images/project-markbin-hi-dpi.png 430w" alt="MarkBin">
-            </div>
-            <h3 class="project__title">MarkBin</h3>
-            <h4 class="project__subtitle">Markdown Editor Web App</h4>
-            <p>Online Markdown editor that shows output as it would be viewed in the browser. Users can save 'bins' of markdown and share them with others. MarkBin was built using the Meteor, a full-stack JavaScript platform for developing modern web applications. Other tools and technologies utilized in building this ReactJS, React-Router and MomentJS. </p>
-            <div>
+          <div class="project__caption">
+            <h4 class="project__title">MarkBin</h4>
+            <h5 class="project__subtitle">Markdown Editor Web App</h5>
+            <p>Online Markdown editor that shows output as it would be viewed in the browser. Users can save 'bins' of markdown and share them with others. MarkBin was built using the Meteor, a full-stack JavaScript platform for developing modern web applications. Other tools and technologies utilized in building this ReactJS, React-Router and MomentJS.</p>
+            <div class="project__buttons">
               <a href="https://fathomless-lake-78449.herokuapp.com/" class="btn btn--large btn--orange">See Live App</a>
               <a href="https://github.com/rayGreycloud/mark-bin" class="btn btn--large">See the Code</a>
             </div>
+          </div> <!--caption-->
+        </div> <!--project2-->
+
+        <div class="project">
+          <div class="project__photo">
+            <img class="lazyload" sizes="215px" data-srcset="assets/images/project-weather.png 216w, assets/images/project-weather-hi-dpi.png 432w" alt="weather">
           </div>
-        </div>
-        <div class="row__large-4">
-          <div class="project project--last">
-            <div class="project__photo">
-              <img class="lazyload" sizes="215px" data-srcset="assets/images/project-weather.png 216w, assets/images/project-weather-hi-dpi.png 432w" alt="weather">
-            </div>
-            <h3 class="project__title">React Weather</h3>
-            <h4 class="project__subtitle">Weather Web App</h4>
-            <p>Online weather application that allows user to get weather information for their location or any other chosen location. React Weather was built using ReactJS with NodeJS and Express on the server-side. Sass, Babel, and Webpack were also used during development with deployment through Heroku. Weather information is retrieved from the  openweathermap.org API. </p>
-            <div>
+          <div class="project__caption">
+            <h4 class="project__title">React Weather</h4>
+            <h5 class="project__subtitle">Weather Web App</h5>
+            <p>Online weather application that allows user to get weather information for their location or any other chosen location. React Weather was built using ReactJS with NodeJS and Express on the server-side. Sass, Babel, and Webpack were also used during development with deployment through Heroku. Weather information is retrieved from the openweathermap.org API.</p>
+            <div class="project__buttons">
               <a href="http://pacific-eyrie-86656.herokuapp.com/" class="btn btn--large btn--orange">See Live App</a>
-              <a href="https://github.com/rayGreycloud/weather-react" class="btn btn--large">See the Code</a>
+              <a href="https://github.com/rayGreycloud/react-weather" class="btn btn--large">See the Code</a>
             </div>
+          </div> <!--caption-->
+        </div> <!--project3-->
+
+        <div class="project">
+          <div class="project__photo">
+            <img class="lazyload" sizes="215px" data-srcset="assets/images/project-color-game.png 213w, assets/images/project-color-game-hi-dpi.png 427w" alt="Color Game">
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
+          <div class="project__caption">
+            <h4 class="project__title">Great RGB Color Game</h4>
+            <h5 class="project__subtitle">Color Guessing Game</h5>
+            <p>Online color guessing game. Players are shown the values for a randomly selected RGB color and must pick the correct color from those shown. </p>
+            <div class="project__buttons">
+              <a href="http://codepen.io/rayGreycloud/full/JXKydN/" class="btn btn--large btn--orange">See Live App</a>
+              <a href="https://github.com/rayGreycloud/rgbColorGame" class="btn btn--large">See the Code</a>
+            </div>
+          </div> <!--caption-->
+        </div> <!--project4-->
+
+      </div> <!--project-list-->
+    </div> <!--wrapper-->
+  </div> <!--projects-->
 
   <footer class="site-footer">
     <div class="wrapper">

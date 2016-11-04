@@ -1,15 +1,19 @@
 .project {
-  background-color: rgba(255, 255, 255, .8);
-  padding: 0 18px 1px 18px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 98px;
-  border-radius: 15px;
+  border: solid 4px #fefefe;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  transition: box-shadow 200ms ease-out;
+  border-radius: 0;
+  margin-bottom: 1rem;
 
-  @mixin atLarge {
-    margin-bottom: 0;
-    padding: 0 1.8125rem 1px 1.8125rem;
-    width: 800px;
+  &:hover {
+    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
+  }
+
+  &:focus {
+    box-shadow: 0 0 6px 1px rgba(33, 153, 232, 0.5);
   }
 
   &--last {
@@ -17,14 +21,8 @@
   }
 
   &__photo {
-    border-radius: 15px;
     overflow: hidden;
-    width: 215px;
-    height: 160px;
-    margin: 0 auto -80px auto;
-    position: relative;
-    top: -80px;
-    border: 6px solid rgba(255, 255, 255, .8);
+    width: 300px;
   }
 
   &__title {
@@ -41,5 +39,17 @@
     font-weight: 400;
     font-size: 0.9375rem;
     margin: .25rem 0 1rem 0;
+  }
+
+  &__buttons {
+    align-items: center;
+    margin: 1rem;
+  }
+
+  &__caption {
+    margin: auto 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, .8);
+    text-align: center;
   }
 }

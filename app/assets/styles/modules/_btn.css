@@ -10,7 +10,7 @@
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
-  
+
   &--orange {
     background-color: $mainOrange;
   }
@@ -22,5 +22,4 @@
       font-size: 1.25rem;
     }
   }
-
 }
