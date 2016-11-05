@@ -451,6 +451,8 @@ a {
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
+
+
 }
 
 .btn--orange {
@@ -803,9 +805,8 @@ a {
 .project {
   border: solid 4px #fefefe;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  display: inline-block;
-  line-height: 0;
-  max-width: 100%;
+  display: block;
+  max-width: 400px;
   -webkit-transition: box-shadow 200ms ease-out;
   transition: box-shadow 200ms ease-out;
   border-radius: 0;
@@ -825,8 +826,10 @@ a {
 }
 
 .project__photo {
-  overflow: hidden;
-  width: 300px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project__title {
@@ -846,17 +849,18 @@ a {
 }
 
 .project__buttons {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 1rem;
+  margin: 1rem 1rem;
+}
+
+.project__buttons a {
+  margin: 1rem .75rem 1rem .75rem;
 }
 
 .project__caption {
-  margin: auto 0;
+  position: static;
+  margin: 1rem 1rem 1rem 1rem;
   padding: 0;
   background-color: rgba(255, 255, 255, .8);
-  text-align: center;
 }
 
 .project-list {

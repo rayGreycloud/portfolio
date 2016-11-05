@@ -1,9 +1,8 @@
 .project {
   border: solid 4px #fefefe;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
-  display: inline-block;
-  line-height: 0;
-  max-width: 100%;
+  display: block;
+  max-width: 400px;
   transition: box-shadow 200ms ease-out;
   border-radius: 0;
   margin-bottom: 1rem;
@@ -21,8 +20,10 @@
   }
 
   &__photo {
-    overflow: hidden;
-    width: 300px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__title {
@@ -42,14 +43,18 @@
   }
 
   &__buttons {
-    align-items: center;
-    margin: 1rem;
+    margin: 1rem 1rem;
+
+    a {
+      margin: 1rem .75rem 1rem .75rem;
+    }
   }
 
   &__caption {
-    margin: auto 0;
+    position: static;
+    margin: 1rem 1rem 1rem 1rem;
     padding: 0;
     background-color: rgba(255, 255, 255, .8);
-    text-align: center;
+
   }
 }
