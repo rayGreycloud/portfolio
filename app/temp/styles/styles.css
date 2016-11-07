@@ -1340,17 +1340,17 @@ a {
 Instead edit gulp/templates/sprite */
 
 .icon {
-      background-image: url('/assets/images/sprites/sprite-d80e7e67.svg');
+      background-image: url('/assets/images/sprites/sprite-273f2e77.svg');
     }
 
 .no-svg .icon {
-      background-image: url('/assets/images/sprites/sprite-d80e7e67.png');
+      background-image: url('/assets/images/sprites/sprite-273f2e77.png');
     }
 
 .icon--airplane {
     width: 62px;
     height: 62px;
-    background-position: 19.871794871794872% 99.81951219512194%;
+    background-position: 39.743589743589745% 99.81951219512194%;
   }
 
 .icon--code {
@@ -1362,7 +1362,7 @@ Instead edit gulp/templates/sprite */
 .icon--cogs {
     width: 62px;
     height: 62px;
-    background-position: 0 99.81951219512194%;
+    background-position: 19.871794871794872% 99.81951219512194%;
   }
 
 .icon--envelope {
@@ -1374,7 +1374,13 @@ Instead edit gulp/templates/sprite */
 .icon--github {
     width: 62px;
     height: 62px;
-    background-position: 79.48717948717949% 99.81951219512194%;
+    background-position: 99.83974358974359% 0;
+  }
+
+.icon--linkedin {
+    width: 62px;
+    height: 62px;
+    background-position: 0 99.81951219512194%;
   }
 
 .icon--magic {
@@ -1392,13 +1398,13 @@ Instead edit gulp/templates/sprite */
 .icon--rocket {
     width: 62px;
     height: 62px;
-    background-position: 39.743589743589745% 99.81951219512194%;
+    background-position: 59.61538461538461% 99.81951219512194%;
   }
 
 .icon--server {
     width: 62px;
     height: 62px;
-    background-position: 59.61538461538461% 99.81951219512194%;
+    background-position: 79.48717948717949% 99.81951219512194%;
   }
 
 .icon--star {
@@ -1410,7 +1416,7 @@ Instead edit gulp/templates/sprite */
 .icon--twitter {
     width: 62px;
     height: 62px;
-    background-position: 99.83974358974359% 0;
+    background-position: 99.83974358974359% 30.24390243902439%;
   }
 
 .wrapper {
