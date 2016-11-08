@@ -443,16 +443,15 @@ a {
   background-color: #2f4074;
   color: #FFF;
   text-decoration: none;
-  padding: .75rem 1.2rem;
+  padding: .75rem 1.25rem;
   display: inline-block;
+  width: auto;
   text-align: center;
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid transparent;
   border-radius: 4px;
-
-
 }
 
 .btn:hover {
@@ -858,7 +857,7 @@ a {
 }
 
 .project__buttons a {
-  margin: 1rem .75rem 1rem .75rem;
+  margin: .75rem;
 }
 
 .project__caption {
