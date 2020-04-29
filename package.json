@@ -2,7 +2,7 @@
   "name": "rayGreycloud-portfolio",
   "version": "3.0.0",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^2.0.0",
     "normalize.css": "^4.1.1",
